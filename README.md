@@ -19,5 +19,13 @@ where
 **Features:** The different ways that we measure each observation (variables that may or may not influence the target variable).
 
 - A single observation can be represented by a row.
-- 
-  
+- A single feature or variable can be represented by a column.
+- A hyperparameter is a parameter that is not learned directly from the data, but relates to implementation; training our machine learning model.
+- Fit parameters involve aspects of the model we estimate (fit) using the data.
+- Regression is when we predict a numeric value.
+- Classification is when we predict a categorical value.
+- The loss measures how close our predictions are to the true values.
+- We use features X and the outcome Y, to choose parameters alpha to minimise the loss.
+
+## Interpretation and Prediction
+
