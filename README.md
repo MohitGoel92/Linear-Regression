@@ -52,3 +52,7 @@ where
 - Example of prediction exercises:
   - Interpretation: Understanding factors that may lead to customers leaving.
   - Prediction: Estimating how long customers are likely to stay can help us understand how many we still need to support, and how valuable they are to the company.
+
+## Linear Regression
+
+<p align="center"> <img width="200" src= "/Pics/w114.png"> </p>
