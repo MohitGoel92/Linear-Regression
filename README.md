@@ -55,4 +55,14 @@ where
 
 ## Linear Regression
 
+The equation below is a typical equation for a linear regression:
+
 <p align="center"> <img width="200" src= "/Pics/W114.png"> </p>
+
+The cost function for a linear regression is called the mean squared error.
+
+**Determining Normality**
+
+Making our target variable normally distributed will often lead to better results. If our target variable is not normally distributed, we can apply a transformation to it and then fit our regression to predict the transformed values. There are two ways to tell if our target variable is normally distributed; we can either observe visually or use a statistical test.
+
+
