@@ -29,3 +29,17 @@ where
 
 ## Interpretation and Prediction
 
+**Interpretation** 
+
+- In some cases, the primary objective is to train a model to find insights from the data.
+- For the machine learning function given above, the interpretation approach uses omega to give us insight into a system.
+- Common workflow:
+  - Gather X, Y: Train the model by finding the omega that gives the best predictions.
+  - Focus on omega rather than the predicted values to generate insights.
+- Example interpretation exercises:
+  - X = Customer demographics, y = Sales data; examine omega to understand the loyalt by segment.
+  - X = Car safety features, y = Traffic accidents; examing omega to understand what makes cars safer.
+  - X = Marketing budget, y = Movie revenue; examing omega to understand marketing effectiveness.
+
+**Prediction**
+
