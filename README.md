@@ -47,8 +47,8 @@ where
 - In some cases, the primary objective is to make the best prediction.
 - For the machine learning function, the prediction approach will compare the real values with the predicted values.
 - The focus will be on performance metrics, which measure the quality of the models predictions.
- - Performance metrics usually involve some measure of closeness between the real and prediction vales (y_p and y).
- - Without focusing on interpretability, we risk having a black-box model.
+  - Performance metrics usually involve some measure of closeness between the real and prediction vales (y_p and y).
+  - Without focusing on interpretability, we risk having a black-box model.
 - Example of prediction exercises:
- - Interpretation: Understanding factors that may lead to customers leaving.
- - Prediction: 
+  - Interpretation: Understanding factors that may lead to customers leaving.
+  - Prediction: Estimating how long customers are likely to stay can help us understand how many we still need to support, and how valuable they are to the company.
