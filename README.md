@@ -7,7 +7,7 @@ There are different types of machines learning, they include:
 
 The equation below represents a machine learning function:
 
-<p align="center"> <img width="200" src= "/Pics/w112.png"> </p>
+<p align="center"> <img width="200" src= "/Pics/w113.png"> </p>
 
 where
   - X: Inpute
