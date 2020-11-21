@@ -37,10 +37,18 @@ where
 - Common workflow:
   - Gather X, Y: Train the model by finding the omega that gives the best predictions.
   - Focus on omega rather than the predicted values to generate insights.
-- Example interpretation exercises:
+- Example of interpretation exercises:
   - X = Customer demographics, y = Sales data; examine omega to understand the loyalt by segment.
   - X = Car safety features, y = Traffic accidents; examing omega to understand what makes cars safer.
   - X = Marketing budget, y = Movie revenue; examing omega to understand marketing effectiveness.
 
 **Prediction**
 
+- In some cases, the primary objective is to make the best prediction.
+- For the machine learning function, the prediction approach will compare the real values with the predicted values.
+- The focus will be on performance metrics, which measure the quality of the models predictions.
+ - Performance metrics usually involve some measure of closeness between the real and prediction vales (y_p and y).
+ - Without focusing on interpretability, we risk having a black-box model.
+- Example of prediction exercises:
+ - Interpretation: Understanding factors that may lead to customers leaving.
+ - Prediction: 
