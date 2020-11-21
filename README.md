@@ -55,4 +55,4 @@ where
 
 ## Linear Regression
 
-<p align="center"> <img width="200" src= "/Pics/w114.png"> </p>
+<p align="center"> <img width="200" src= "/Pics/W114.png"> </p>
