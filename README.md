@@ -59,7 +59,7 @@ The equation below is a typical equation for a linear regression:
 
 <p align="center"> <img width="200" src= "/Pics/W114.png"> </p>
 
-The cost function for a linear regression is called the mean squared error.
+The cost function for a linear regression is called the ***mean squared error***.
 
 **Determining Normality**
 
