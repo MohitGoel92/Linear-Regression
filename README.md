@@ -6,6 +6,7 @@ There are different types of machines learning, they include:
 - Semi-Supervised: When we have data with known outcomes and data without outcomes.
 
 The equation below represents a machine learning function:
+\n
 
 <p align="center"> <img width="200" src= "/Pics/w113.png"> </p>
 
