@@ -98,3 +98,4 @@ from scipy.special import inv_boxcox
 y_pred = inv_boxcox(y_pred_boxcox, lam)
 ```
 
+For the Jupyter notebook, please see: https://github.com/MohitGoel92/Linear-Regression/tree/main/Normally%20Distributing%20Variables%20for%20Regression
