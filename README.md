@@ -69,11 +69,13 @@ The statistical test will test whether a distribution is normally distributed or
  - The test outputs a p-value. The higher the p-value is the closer the distribution is to a normal distribution.
  - We accept that the distribution is normal if p > 0.05.
 
-**Box Cox:**
+**Box Cox**
 
 The Box Cox transformation is a parameterised transformation that tries to get distributions "as close to a normal distribution as possible".
 
 It is defined as:
 
 <p align="center"> <img width="200" src= "/Pics/w115.png"> </p>
+
+The square root uses the exponent of 0.5 (or 1/2), but Box Cox lets its exponent vary so it can find the best one. We will first use the Box Cox transformation on the data set, and then use the inverse transformation. The codes below are the codes that have been used in the Jupyter notebook.
 
