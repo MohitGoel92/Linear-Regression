@@ -54,11 +54,11 @@ where
 
 ## Linear Regression
 
-The equation below is a typical equation for a linear regression:
+A linear regression models the relationship between a continuous variable and one or more scaled variables. It is usually represented as a dependent function equal to the sum of a coefficient plus scaling factors times the independent variables. The equation below is a typical equation for a linear regression:
 
 <p align="center"> <img width="200" src= "/Pics/W114.png"> </p>
 
-The cost function for a linear regression is called the ***mean squared error***.
+Residuals are defined as the difference between an actual value and a predicted value. The cost function for a linear regression is called the ***mean squared error***. In addition, common measures of error include the Sum of Squared Error (SSE), Total Sum of Squares (TSS), and Coefficient of Determination ($R^{2}$). 
 
 **Determining Normality**
 
