@@ -79,7 +79,7 @@ It is defined as:
 
 The square root uses the exponent of 0.5 (or 1/2), but Box Cox lets its exponent vary so it can find the best one. We will first use the Box Cox transformation on the data set, and then use the inverse transformation. The codes below are the codes that have been used in the Jupyter notebook.
 
-`
+```
 # Applying the Box Cox transformation
 from scipy.stats import boxcox
 
@@ -89,12 +89,12 @@ lam = boxcox_result[1]
 
 lr.fit(X_train, y_train_boxcox)
 y_pred_boxcox = lr.predict(X_test)
-`
+```
 
-`
+```
 # Applying the inverse Box Cox transformation
 from scipy.special import inv_boxcox
 
 y_pred = inv_boxcox(y_pred_boxcox, lam)
-`
+```
 
