@@ -1,13 +1,12 @@
-# Supervised Learning: Linear Regression
+# Linear Regression
 
 There are different types of machine learning, they include:
+
 - Supervised: When the data points have a known outcome.
 - Unsupervised: When the data points have an unknown outcome.
 - Semi-Supervised: When we have data with known outcomes and data without outcomes.
 
 The equation below represents a machine learning function:
- 
- 
  
 <p align="center"> <img width="200" src= "/Pics/w113.png"> </p>
 
@@ -39,8 +38,8 @@ where
   - Focus on omega rather than the predicted values to generate insights.
 - Example of interpretation exercises:
   - X = Customer demographics, y = Sales data; examine omega to understand the loyalt by segment.
-  - X = Car safety features, y = Traffic accidents; examing omega to understand what makes cars safer.
-  - X = Marketing budget, y = Movie revenue; examing omega to understand marketing effectiveness.
+  - X = Car safety features, y = Traffic accidents; examine omega to understand what makes cars safer.
+  - X = Marketing budget, y = Movie revenue; examine omega to understand marketing effectiveness.
 
 **Prediction**
 
@@ -51,7 +50,7 @@ where
   - Without focusing on interpretability, we risk having a black-box model.
 - Example of prediction exercises:
   - Interpretation: Understanding factors that may lead to customers leaving.
-  - Prediction: Estimating how long customers are likely to stay can help us understand how many we still need to support, and how valuable they are to the company.
+  - Prediction: Estimating how long customers are likely to stay may help us understand how many we still need to support, and how valuable they are to the company.
 
 ## Linear Regression
 
