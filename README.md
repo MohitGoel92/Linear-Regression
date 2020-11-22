@@ -65,4 +65,15 @@ The cost function for a linear regression is called the ***mean squared error***
 
 Making our target variable normally distributed will often lead to better results. If our target variable is not normally distributed, we can apply a transformation to it and then fit our regression to predict the transformed values. There are two ways to tell if our target variable is normally distributed; we can either observe visually or use a statistical test.
 
+The statistical test will test whether a distribution is normally distributed or not:
+ - The test outputs a p-value. The higher the p-value is the closer the distribution is to a normal distribution.
+ - We accept that the distribution is normal if p > 0.05.
+
+**Box Cox:**
+
+The Box Cox transformation is a parameterised transformation that tries to get distributions "as close to a normal distribution as possible".
+
+It is defined as:
+
+<p align="center"> <img width="200" src= "/Pics/w115.png"> </p>
 
