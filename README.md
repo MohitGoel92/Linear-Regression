@@ -58,7 +58,7 @@ A linear regression models the relationship between a continuous variable and on
 
 <p align="center"> <img width="200" src= "/Pics/W114.png"> </p>
 
-Residuals are defined as the difference between an actual value and a predicted value. The cost function for a linear regression is called the ***mean squared error***. In addition, common measures of error include the Sum of Squared Error (SSE), Total Sum of Squares (TSS), and Coefficient of Determination ($R^{2}$). 
+Residuals are defined as the difference between an actual value and a predicted value. The cost function for a linear regression is called the ***mean squared error***. In addition, common measures of error include the Sum of Squared Error (SSE), Total Sum of Squares (TSS), and Coefficient of Determination (R2). 
 
 **Determining Normality**
 
