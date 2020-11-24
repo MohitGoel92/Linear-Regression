@@ -98,3 +98,15 @@ y_pred = inv_boxcox(y_pred_boxcox, lam)
 ```
 
 **For the Jupyter notebook, please see:** https://github.com/MohitGoel92/Linear-Regression/tree/main/Normally%20Distributing%20Variables%20for%20Regression
+
+# Regularisation Techniques
+
+## The Bias-Variance Tradeoff
+
+<p align="center"> <img width="200" src= "/Pics/W31.png"> </p>
+
+<p align="center"> <img width="200" src= "/Pics/W32.png"> </p>
+
+<p align="center"> <img width="200" src= "/Pics/W33.png"> </p>
+
+<p align="center"> <img width="200" src= "/Pics/W34.png"> </p>
