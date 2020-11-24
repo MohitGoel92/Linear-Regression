@@ -120,6 +120,8 @@ There are 3 sources of model error, they are:
 
 **Irreducible Error:** The tendency to instrinsic uncertainty/randomness. This is present in even the best possible models.
 
+The diagram below is a visual representation of bias and variance. From the diagram, we observe that variance indicates how far spread the predictions are, and bias refers to how close the predictions are to the real values.
+
 <p align="center"> <img width="450" src= "/Pics/W33.png"> </p>
 
 <p align="center"> <img width="1000" src= "/Pics/W32.png"> </p>
