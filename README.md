@@ -107,9 +107,17 @@ The diagram below illustrates the relationship between model complexity and erro
 
 <p align="center"> <img width="600" src= "/Pics/W31.png"> </p>
 
+There are 3 sources of model error, they are:
+ - Bias: Being wrong
+ - Variance: Being unstable
+ - Irreducible error: Unavoidable randomness
+
+
+
+<p align="center"> <img width="600" src= "/Pics/W33.png"> </p>
 
 <p align="center"> <img width="1000" src= "/Pics/W32.png"> </p>
 
-<p align="center"> <img width="600" src= "/Pics/W33.png"> </p>
+
 
 <p align="center"> <img width="600" src= "/Pics/W34.png"> </p>
