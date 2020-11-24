@@ -103,10 +103,9 @@ y_pred = inv_boxcox(y_pred_boxcox, lam)
 
 ## The Bias-Variance Tradeoff
 
-The diagram below illustrates the relationship between model complexity and error. 
+The diagram below illustrates the relationship between model complexity and error. For Jtrain, the error reduces as the complexity increases. However, for Jcv the error reduces as complexity increases to a certain point, but starts to increase after this particular point. This is due to Jtrain overfitting the dataset. If we overfit the dataset, the model may accurately predict the dataset on which it was trained on however, it is likely to be a poor fit on a new dataset. This is demonstrated by the increasing error for Jcv after the model has reached a particular complexity.
 
 <p align="center"> <img width="600" src= "/Pics/W31.png"> </p>
-
 
 
 <p align="center"> <img width="1000" src= "/Pics/W32.png"> </p>
