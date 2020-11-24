@@ -112,7 +112,13 @@ There are 3 sources of model error, they are:
  - Variance: Being unstable
  - Irreducible error: Unavoidable randomness
 
+**Tendency:** The expectation of out-of-shape behaviour over many training set samples.
 
+**Bias:** The tendency of predictions to miss true values. This is worsened by missing information and overly-simplistic assumptions. A common reason for higher bias is underfitting, therefore missing real patterns in the data.
+
+**Variance:** The tendency of predictions to fluctuate. This is characterised by sensitivity or output to small changes in inpute data. A common reason for higher variance is overly complex or poorly fit models.
+
+**Irreducible Error:** The tendency to instrinsic uncertainty/randomness. This is present in even the best possible models.
 
 <p align="center"> <img width="600" src= "/Pics/W33.png"> </p>
 
