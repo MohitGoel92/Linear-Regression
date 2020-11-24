@@ -103,7 +103,11 @@ y_pred = inv_boxcox(y_pred_boxcox, lam)
 
 ## The Bias-Variance Tradeoff
 
+The diagram below illustrates the relationship between model complexity and error. 
+
 <p align="center"> <img width="600" src= "/Pics/W31.png"> </p>
+
+
 
 <p align="center"> <img width="1000" src= "/Pics/W32.png"> </p>
 
