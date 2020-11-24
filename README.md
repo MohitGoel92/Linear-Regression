@@ -103,10 +103,10 @@ y_pred = inv_boxcox(y_pred_boxcox, lam)
 
 ## The Bias-Variance Tradeoff
 
-<p align="center"> <img width="200" src= "/Pics/W31.png"> </p>
+<p align="center"> <img width="400" src= "/Pics/W31.png"> </p>
 
-<p align="center"> <img width="200" src= "/Pics/W32.png"> </p>
+<p align="center"> <img width="400" src= "/Pics/W32.png"> </p>
 
-<p align="center"> <img width="200" src= "/Pics/W33.png"> </p>
+<p align="center"> <img width="400" src= "/Pics/W33.png"> </p>
 
-<p align="center"> <img width="200" src= "/Pics/W34.png"> </p>
+<p align="center"> <img width="400" src= "/Pics/W34.png"> </p>
