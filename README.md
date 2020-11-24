@@ -120,7 +120,7 @@ There are 3 sources of model error, they are:
 
 **Irreducible Error:** The tendency to instrinsic uncertainty/randomness. This is present in even the best possible models.
 
-<p align="center"> <img width="600" src= "/Pics/W33.png"> </p>
+<p align="center"> <img width="450" src= "/Pics/W33.png"> </p>
 
 <p align="center"> <img width="1000" src= "/Pics/W32.png"> </p>
 
