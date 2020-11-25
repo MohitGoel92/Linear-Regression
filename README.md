@@ -116,16 +116,30 @@ There are 3 sources of model error, they are:
 
 **Bias:** The tendency of predictions to miss true values. This is worsened by missing information and overly-simplistic assumptions. A common reason for higher bias is underfitting, therefore missing real patterns in the data.
 
-**Variance:** The tendency of predictions to fluctuate. This is characterised by sensitivity or output to small changes in inpute data. A common reason for higher variance is overly complex or poorly fit models.
+**Variance:** The tendency of predictions to fluctuate or be inconsistent. This is characterised by sensitivity or output to small changes in inpute data. A common reason for higher variance is overly complex or poorly fit models.
 
 **Irreducible Error:** The tendency to instrinsic uncertainty/randomness. This is present in even the best possible models.
 
-The diagram below is a visual representation of bias and variance. From the diagram, we observe that variance indicates how far spread the predictions are, and bias refers to how close the predictions are to the real values.
+The diagram below is a visual representation of bias and variance. From the diagram, we observe that variance indicates how far spread the predictions are, and bias refers to how close the predictions are to the real values. Ideally we want to be highly consistent for predictions that are close to perfect on average.
 
 <p align="center"> <img width="450" src= "/Pics/W332.png"> </p>
 
+For the graphs below, the blue curve represents the true model and the black line/curve represents the alternative models for explanatory purposes.
+
 <p align="center"> <img width="1000" src= "/Pics/W32.png"> </p>
 
+Polynomial Degree = 1: 
+- High bias but low variance.
+- Poor at both training and predicting.
 
+Polynomial Degree = 4: 
+- Bias and variance is just right.
+- Training and predicting is just right.
+
+Polynomial Degree = 15: 
+- Low bias but high variance.
+- Good at training but poor at predicting.
+
+## Bias-Variance Tradeoff Visualised
 
 <p align="center"> <img width="600" src= "/Pics/W34.png"> </p>
