@@ -151,6 +151,6 @@ The diagram above summarises the key points below:
 - Finding the best model means choosing the right level of complexity.
 - Ideally, we want a model elaborate enough to not underfit, but not so exceedingly elaborate that it overfits.
 - The higher the degree of a polynomial regression, the more complex the model (lower bias, higher variance).
-- At lower degrees, we observe visual signs of bias. The predictions are too rigid to capture the curve pattern in the data.
+- At lower degrees, we observe visual signs of bias and the predictions are too rigid to capture the curve pattern in the data.
 - At higher degrees, we see visual signs of variance. Predictions fluctuate wildly because of the models sensitivity.
 - The goal is to find the right degree, such that the model has sufficient complexity to desribe the data without overfitting.
