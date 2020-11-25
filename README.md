@@ -157,4 +157,13 @@ The diagram above summarises the key points below:
 
 ## Regularisation and Model Selection
 
+The function below is the **Adjusted Cost Function**:
+
 <p align="center"> <img width="200" src= "/Pics/W35.png"> </p>
+
+where
+ - M(w): Model Error
+ - R(w): Function of Estimated Parameter(s)
+ - λ: Regularisation Strength Parameter
+ 
+ 
