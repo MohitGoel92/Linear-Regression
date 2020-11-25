@@ -101,7 +101,7 @@ y_pred = inv_boxcox(y_pred_boxcox, lam)
 
 # Regularisation Techniques
 
-## The Bias-Variance Tradeoff
+## The Bias-Variance Trade-off
 
 The diagram below illustrates the relationship between model complexity and error. For Jtrain, the error reduces as the complexity increases. However, for Jcv the error reduces as complexity increases to a certain point, but starts to increase after this particular point. This is due to Jtrain overfitting the dataset. If we overfit the dataset, the model may accurately predict the dataset on which it was trained on however, it is likely to be a poor fit on a new dataset. This is demonstrated by the increasing error for Jcv after the model has reached a particular complexity.
 
@@ -140,6 +140,17 @@ Polynomial Degree = 15:
 - Low bias but high variance.
 - Good at training but poor at predicting.
 
-## Bias-Variance Tradeoff Visualised
+## Bias-Variance Trade-off Visualised
 
 <p align="center"> <img width="600" src= "/Pics/W34.png"> </p>
+
+The diagram above summarises the key points below:
+
+- Model adjustments that decrease bias often increase variance, and vice versa.
+- The bias-variance is analogous to a complexity trade-off.
+- Finding the best model means choosing the right level of complexity.
+- Ideally, we want a model elaborate enough to not underfit, but not so exceedingly elaborate that it overfits.
+- The higher the degree of a polynomial regression, the more complex the model (lower bias, higher variance).
+- At lower degrees, we observe visual signs of bias. The predictions are too rigid to capture the curve pattern in the data.
+- At higher degrees, we see visual signs of variance. Predictions fluctuate wildly because of the models sensitivity.
+- The goal is to find the right degree, such that the model has sufficient complexity to desribe the data without overfitting.
