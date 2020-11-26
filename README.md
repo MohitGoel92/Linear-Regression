@@ -200,4 +200,4 @@ where RSS is the *Residual Sum of Squares*.
 
 Given below is a new cost function that we will be using for Ridge regression. This has been derived from taking the original linear regression cost function and added on a penalty to reduce complexity of our model.
 
-<p align="center"> <img width="350" src= "/Pics/W311.png"> </p>
+<p align="center"> <img width="450" src= "/Pics/W311.png"> </p>
