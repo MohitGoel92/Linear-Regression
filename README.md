@@ -166,6 +166,10 @@ where
  - R(w): Function of Estimated Parameter(s)
  - λ: Regularisation Strength Parameter (Lambda)
 
-Regularisation adds an (adjustable) regularisation strength parameter directly into the cost function. The lambda (λ) adds a penalty proportional to the size of the estimated model parameter, or a function of the parameter. The larger the λ is, the more we will penalise stronger parameters, the less complex our model will be as we try to minimise our function. 
- 
- 
+Regularisation adds an (adjustable) regularisation strength parameter directly into the cost function. The lambda (λ) adds a penalty proportional to the size of the estimated model parameter, or a function of the parameter. The larger the λ, the more we will penalise stronger parameters and the less complex our model will be as we try to minimise our function. Increasing the cost function controls the amount of penalty.
+
+The regularisation strength parameter λ allows us to manage the complexity tradeoff:
+ - More regularisation introduces a simpler model or more bias (i.e. Higher λ => stronger penalty => simpler model).
+ - Less regularisation makes the model more complex and increases variance (i.e. Lower λ => weaker penalty => more complex model.
+
+If our model has overfit (variance is too high), regularisation can improve the generalisation error and reduce variance (better generalised fit).
