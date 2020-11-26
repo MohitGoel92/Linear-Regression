@@ -184,9 +184,20 @@ Reducing the number of features may prevent overfitting. For some models, a redu
 
 ## Ridge Regression (L2)
 
+**Note:** When fitting the linear regression to the dataset, feature scaling is not a necessary step as the linear_model library takes care of this for us. However, when dealing with Ridge regression feature scaling is now required.
+
 The Ridge regression cost function is given below:
 
 <p align="center"> <img width="350" src= "/Pics/W39.png"> </p>
 
-**Note:** When fitting the linear regression to the dataset, feature scaling is not a necessary step as the linear_model library takes care of this for us. However, when dealing with Ridge regression feature scaling is now required.
+where RSS is the *Residual Sum of Squares*.
 
+- The complexity penalty λ is applied proportionally to the squared coefficient values. This increases/decreases the effect of the square of each of the coefficient values.
+- The penalty terms has the effect of "shrinking" coefficients toward 0.
+- This imposes bias on the model, but also reduces variance.
+- We can select the best regularisation strength λ via cross-validation.
+- It's best practice to scale features (i.e. using StandardScaler) so penalties aren't impacted by variable scale.
+
+Given below is a new cost function that we will be using for Ridge regression. This has been derived from taking the original linear regression cost function and added on a penalty to reduce complexity of our model.
+
+<p align="center"> <img width="350" src= "/Pics/W310.png"> </p>
