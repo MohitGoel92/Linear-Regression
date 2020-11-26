@@ -101,7 +101,7 @@ y_pred = inv_boxcox(y_pred_boxcox, lam)
 
 # Regularisation Techniques
 
-## The Bias-Variance Trade-off
+## The Bias-Variance Trade-Off
 
 The diagram below illustrates the relationship between model complexity and error. For Jtrain, the error reduces as the complexity increases. However, for Jcv the error reduces as complexity increases to a certain point, but starts to increase after this particular point. This is due to Jtrain overfitting the dataset. If we overfit the dataset, the model may accurately predict the dataset on which it was trained on however, it is likely to be a poor fit on a new dataset. This is demonstrated by the increasing error for Jcv after the model has reached a particular complexity.
 
@@ -198,6 +198,14 @@ where RSS is the *Residual Sum of Squares*.
 - We can select the best regularisation strength λ via cross-validation.
 - It's best practice to scale features (i.e. using StandardScaler) so penalties aren't impacted by variable scale.
 
-Given below is a new cost function that we will be using for Ridge regression. This has been derived from taking the original linear regression cost function and added on a penalty to reduce complexity of our model.
+Given below is a new cost function that we will be using for Ridge regression. This has been derived from taking the original linear regression cost function and adding on a penalty to reduce complexity of our model.
 
 <p align="center"> <img width="450" src= "/Pics/W311.png"> </p>
+
+**Note:**
+
+- The penalty shrinks the magnitude of all coefficients.
+- Larger coefficients are strongly penalised because of squaring. For instance, a coefficient of 2 will be penalised 4 times as much as a coefficient of 1, and a coefficient of 3 will be penalised 9 times as much.
+
+<p align="center"> <img width="1000" height = "400" src= "/Pics/W32.png"> </p>
+
