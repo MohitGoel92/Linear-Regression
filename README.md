@@ -122,7 +122,7 @@ There are 3 sources of model error, they are:
 
 The diagram below is a visual representation of bias and variance. From the diagram, we observe that variance indicates how far spread the predictions are, and bias refers to how close the predictions are to the real values. Ideally we want to be highly consistent for predictions that are close to perfect on average.
 
-<p align="center"> <img width="450" src= "/Pics/W332.png"> </p>
+<p align="center"> <img width="550" src= "/Pics/W332.png"> </p>
 
 For the graphs below, the blue curve represents the true model and the black line/curve represents the alternative models for explanatory purposes.
 
