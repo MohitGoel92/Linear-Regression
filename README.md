@@ -207,5 +207,5 @@ Given below is a new cost function that we will be using for Ridge regression. T
 - The penalty shrinks the magnitude of all coefficients.
 - Larger coefficients are strongly penalised because of squaring. For instance, a coefficient of 2 will be penalised 4 times as much as a coefficient of 1, and a coefficient of 3 will be penalised 9 times as much.
 
-<p align="center"> <img width="1000" height = "400" src= "/Pics/W32.png"> </p>
+<p align="center"> <img width="1000" height = "250" src= "/Pics/W32.png"> </p>
 
