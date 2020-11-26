@@ -211,3 +211,6 @@ The below graphs illustrate the behavioural changes of the polynomials as λ cha
 
 <p align="center"> <img width="1000" src= "/Pics/W312.png"> </p>
 
+**Complexity Tradeoff:** Variance reduction may outpace the increase in bias, leading to a better model fit.
+
+**Note:** Ridge produces a computationally efficient algorithm in comparison to Lasso.
