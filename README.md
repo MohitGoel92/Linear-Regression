@@ -184,4 +184,8 @@ Reducing the number of features may prevent overfitting. For some models, a redu
 
 ## Ridge Regression (L2)
 
-When fitting the linear regression to the dataset, feature scaling is not a necessary step as the linear_model library takes care of this for us. However, when dealing with Ridge regression feature scaling is now required. 
+
+
+<p align="center"> <img width="200" src= "/Pics/W36.png"> </p>
+
+When fitting the linear regression to the dataset, feature scaling is not a necessary step as the linear_model library takes care of this for us. However, when dealing with Ridge regression feature scaling is now required.
