@@ -184,8 +184,9 @@ Reducing the number of features may prevent overfitting. For some models, a redu
 
 ## Ridge Regression (L2)
 
-
+The Ridge regression cost function is given below:
 
 <p align="center"> <img width="350" src= "/Pics/W39.png"> </p>
 
-When fitting the linear regression to the dataset, feature scaling is not a necessary step as the linear_model library takes care of this for us. However, when dealing with Ridge regression feature scaling is now required.
+**Note:** When fitting the linear regression to the dataset, feature scaling is not a necessary step as the linear_model library takes care of this for us. However, when dealing with Ridge regression feature scaling is now required.
+
