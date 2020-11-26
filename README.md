@@ -170,6 +170,17 @@ Regularisation adds an (adjustable) regularisation strength parameter directly i
 
 The regularisation strength parameter λ allows us to manage the complexity tradeoff:
  - More regularisation introduces a simpler model or more bias (i.e. Higher λ => stronger penalty => simpler model).
- - Less regularisation makes the model more complex and increases variance (i.e. Lower λ => weaker penalty => more complex model.
-
+ - Less regularisation makes the model more complex and increases variance (i.e. Lower λ => weaker penalty => more complex model).
+ 
 If our model has overfit (variance is too high), regularisation can improve the generalisation error and reduce variance (better generalised fit).
+
+ ## Regularisation and Feature Selection
+ 
+Regularisation performs feature selection by shrinking the contribution of features. For L1 - regularisation, this is accomplished by driving some coefficients to zero. 
+
+**Note:** Feature selection can also be performed by removing features by *Principal Component Analysis* or *Linear Discriminant Analysis*.
+
+Reducing the number of features may prevent overfitting. For some models, a reduced number of features will improve fitting time and/or results. Therefore, identifying the most critical features can improve model interpretability.
+
+## Ridge Regression (L2)
+
