@@ -164,6 +164,8 @@ The function below is the **Adjusted Cost Function**:
 where
  - M(w): Model Error
  - R(w): Function of Estimated Parameter(s)
- - λ: Regularisation Strength Parameter
+ - λ: Regularisation Strength Parameter (Lambda)
+
+Regularisation adds an (adjustable) regularisation strength parameter directly into the cost function. The lambda (λ) adds a penalty proportional to the size of the estimated model parameter, or a function of the parameter. The larger the λ is, the more we will penalise stronger parameters, the less complex our model will be as we try to minimise our function. 
  
  
