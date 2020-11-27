@@ -256,8 +256,8 @@ The diagram below demonstrates how shrinkage and selection effect as regularisat
 
 ## Elastic Net: Between Ridge and LASSO
 
-**Elastic Net:** The hybrid approach
+**Elastic Net:** The hybrid approach.
 
 The cost function is given below:
 
-<p align="center"> <img width="250" src= "/Pics/W319.png"> </p>
+<p align="center"> <img width="200" src= "/Pics/W319.png"> </p>
