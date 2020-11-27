@@ -260,4 +260,4 @@ The diagram below demonstrates how shrinkage and selection effect as regularisat
 
 The cost function is given below:
 
-<p align="center"> <img width="450" src= "/Pics/W319.png"> </p>
+<p align="center"> <img width="350" src= "/Pics/W319.png"> </p>
