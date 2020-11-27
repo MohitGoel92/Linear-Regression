@@ -288,7 +288,7 @@ This approach combines:
 - A model or estimation approach.
 - A desired number of features.
 
-RFE then repeatedly applied the the model, measures feature importance and recursively removes less important features.
+RFE then repeatedly applies the model, measures feature importance and recursively removes less important features.
 
 Example Code:
 
@@ -299,3 +299,7 @@ rfe = RFE("classifier or model", n_features_to_select = 5)
 rfe = rfe.fit(X_train, y_train)
 y_pred = rfe.predict(X_test)
 ```
+The RFECV class will perform feature elimination using cross validation.
+
+## Polynomial Features and Regularisation: Intuitive Analysis
+
