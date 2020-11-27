@@ -272,3 +272,12 @@ The cost function is given below:
 From the below we observe how Elastic Net combines penalties from both Ridge and LASSO regression.
 
 <p align="center"> <img width="550" src= "/Pics/W320.png"> </p>
+
+**Note:** It requires tuning of an additional parameter that determines emphasis of L1 Vs L2 regularisation penalties.
+
+The below graphs illustrate the behavioural changes of the polynomials as λ1 and λ2 change.
+
+<p align="center"> <img width="500" src= "/Pics/W322.png"> </p>
+
+**Note:** λ1 and λ2 may or may not be equal.
+
