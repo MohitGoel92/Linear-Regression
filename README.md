@@ -301,5 +301,5 @@ y_pred = rfe.predict(X_test)
 ```
 The RFECV class will perform feature elimination using cross validation.
 
-## Polynomial Features and Regularisation: Intuitive Analysis
+## Polynomial Features and Regularisation: Intuitive Analysis and Further Details
 
