@@ -227,4 +227,4 @@ The diagram below demonstrates how the coefficients shrink as the penalty parame
 
 The only difference between LASSO and Ridge regression is how we penalise the cost function using our coefficients. With Ridge (L2), we use the coefficient squared, and with LASSO we'll be using the absolute value of each one of these coefficients.
 
-<p align="center"> <img width="450" src= "/Pics/W315.png"> </p>
+<p align="center"> <img width="350" src= "/Pics/W315.png"> </p>
