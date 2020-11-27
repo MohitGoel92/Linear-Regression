@@ -245,3 +245,11 @@ Given below is the cost function that we will be using for LASSO regression.
 - LASSO can be used for feature selection.
 - In comparison to Ridge regression, LASSO is slower to converge.
 - LASSO will eliminate features quickly if we have a high value for lambda (λ).
+
+The diagram below demonstrates how shrinkage and selection effect as regularisation strength increases. We observe how some features quickly drop to 0.
+
+<p align="center"> <img width="450" src= "/Pics/W317.png"> </p>
+
+**Complexity Tradeoff:** Variance reduction may outpace the increase in bias, leading to a better model fit. This can be observed by the diagram below.
+
+<p align="center"> <img width="450" src= "/Pics/W318.png"> </p>
