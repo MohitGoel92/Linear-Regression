@@ -228,3 +228,13 @@ The diagram below demonstrates how the coefficients shrink as the penalty parame
 The only difference between LASSO and Ridge regression is how we penalise the cost function using our coefficients. With Ridge (L2), we use the coefficient squared, and with LASSO we'll be using the absolute value of each one of these coefficients.
 
 <p align="center"> <img width="350" src= "/Pics/W315.png"> </p>
+
+**Note:** Penalties are closely related to L1/L2 norms that measure vector length.
+
+In LASSO regression, the complexity penalty λ is proportional to the absolute value of the coefficients. In Ridge regression, it's proportional to the square of the coefficients. LASSO has the similar effect to Ridge in terms of complexity tradeoff, in that "Increasing λ raises bias but lowers variance".
+
+**Note:** LASSO is more likely than Ridge to perform feature selection. For instance, for a fixed λ LASSO is more likely to result in coefficients being set to zero.
+
+Given below is the cost function that we will be using for LASSO regression. 
+
+<p align="center"> <img width="450" src= "/Pics/W316.png"> </p>
