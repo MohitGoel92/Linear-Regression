@@ -238,3 +238,10 @@ In LASSO regression, the complexity penalty λ is proportional to the absolute v
 Given below is the cost function that we will be using for LASSO regression. 
 
 <p align="center"> <img width="450" src= "/Pics/W316.png"> </p>
+
+**Note:**
+
+- The penalty selectively shrinks some coefficients.
+- LASSO can be used for feature selection.
+- In comparison to Ridge regression, LASSO is slower to converge.
+- LASSO will eliminate features quickly if we have a high value for lambda (λ).
