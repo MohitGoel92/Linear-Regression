@@ -260,4 +260,15 @@ The diagram below demonstrates how shrinkage and selection effect as regularisat
 
 The cost function is given below:
 
-<p align="center"> <img width="200" src= "/Pics/W319.png"> </p>
+<p align="center"> <img width="225" src= "/Pics/W319.png"> </p>
+
+**Notes:**
+
+- Validation gives us an empirical (observable) method for selecting between different models.
+- LASSO's feature selection property yields an interpretability bonus, but may underperform if the target truly depends on many of the features.
+- Elastic Net, an alternative hybrid approach introduces a new parameter α (alpha) that determines a weighted average of L1 and L2 penalties.
+- Ridge regression is a computationally efficient algorithm and penalises certain weights even higher.
+
+From the below we observe how Elastic Net combines penalties from both Ridge and LASSO regression.
+
+<p align="center"> <img width="225" src= "/Pics/W320.png"> </p>
