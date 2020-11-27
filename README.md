@@ -277,7 +277,7 @@ From the below we observe how Elastic Net combines penalties from both Ridge and
 
 The below graphs illustrate the behavioural changes of the polynomials as λ1 and λ2 change.
 
-<p align="center"> <img width="500" src= "/Pics/W322.png"> </p>
+<p align="center"> <img width="1000" src= "/Pics/W322.png"> </p>
 
 **Note:** λ1 and λ2 may or may not be equal.
 
