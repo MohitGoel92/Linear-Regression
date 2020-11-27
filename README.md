@@ -271,4 +271,4 @@ The cost function is given below:
 
 From the below we observe how Elastic Net combines penalties from both Ridge and LASSO regression.
 
-<p align="center"> <img width="350" src= "/Pics/W321.png"> </p>
+<p align="center"> <img width="350" src= "/Pics/W320.png"> </p>
