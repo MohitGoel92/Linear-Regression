@@ -281,3 +281,21 @@ The below graphs illustrate the behavioural changes of the polynomials as λ1 an
 
 **Note:** λ1 and λ2 may or may not be equal.
 
+## Recursive Feature Elimination (RFE)
+
+This approach combines:
+
+- A model or estimation approach.
+- A desired number of features.
+
+RFE then repeatedly applied the the model, measures feature importance and recursively removes less important features.
+
+Example Code:
+
+```
+from sklearn.feature_selection import RFE, RFECV
+
+rfe = RFE("classifier or model", n_features_to_select = 5)
+rfe = rfe.fit(X_train, y_train)
+y_pred = rfe.predict(X_test)
+```
