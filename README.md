@@ -253,3 +253,11 @@ The diagram below demonstrates how shrinkage and selection effect as regularisat
 **Complexity Tradeoff:** Variance reduction may outpace the increase in bias, leading to a better model fit. This can be observed by the diagram below.
 
 <p align="center"> <img width="450" src= "/Pics/W318.png"> </p>
+
+## Elastic Net: Between Ridge and LASSO
+
+**Elastic Net:** The hybrid approach
+
+The cost function is given below:
+
+<p align="center"> <img width="450" src= "/Pics/W319.png"> </p>
