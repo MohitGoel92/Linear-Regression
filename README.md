@@ -318,4 +318,17 @@ Let's examine intuitively how these techniques (Ridge, LASSO, Elastic Net) inter
 
 **Geometric View**
 
+Below are the mathematically equivalent formulations of the optimisation objectives of Ridge and LASSO respectively.
+
 <p align="center"> <img width="450" src= "/Pics/W324.png"> </p>
+
+Under this geometric formulation, the cost function minimum is found at the intersection of the penalty boundary and a contour of the traditional OLS cost function surface.
+
+The geometry reveals the selection effect of LASSO (intersection at a corner/axis zeros out coefficients).
+
+<p align="center"> <img width="1000" src= "/Pics/W325.png"> </p>
+
+**Probabilistic View**
+
+
+
