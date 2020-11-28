@@ -305,7 +305,7 @@ The RFECV class will perform feature elimination using cross validation.
 
 Let's examine intuitively how these techniques (Ridge, LASSO, Elastic Net) interact with modelling. We will be taking the following approaches:
 
-- Analytic view
+- Analytical view
 - Geometric view
 - Probabilistic view
 
@@ -316,3 +316,6 @@ Let's examine intuitively how these techniques (Ridge, LASSO, Elastic Net) inter
 
 <p align="center"> <img width="1000" src= "/Pics/W323.png"> </p>
 
+**Geometric View**
+
+<p align="center"> <img width="400" src= "/Pics/W323.png"> </p>
