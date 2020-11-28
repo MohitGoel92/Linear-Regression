@@ -320,7 +320,7 @@ Let's examine intuitively how these techniques (Ridge, LASSO, Elastic Net) inter
 
 Below are the mathematically equivalent formulations of the optimisation objectives of Ridge and LASSO respectively.
 
-<p align="center"> <img width="450" src= "/Pics/W324.png"> </p>
+<p align="center"> <img width="500" src= "/Pics/W324.png"> </p>
 
 Under this geometric formulation, the cost function minimum is found at the intersection of the penalty boundary and a contour of the traditional OLS cost function surface.
 
@@ -333,3 +333,5 @@ The geometry reveals the selection effect of LASSO (intersection at a corner/axi
 **Bayes:** Regularisation imposes certain priors on the regression coefficients.
 
 <p align="center"> <img width="450" src= "/Pics/W326.png"> </p>
+
+Letting *f* be the likelihood (probability of target given parameter vector \beta), and *p(\beta)* the prior distribution of \beta, we can calculate the posterior of \beta.
