@@ -330,5 +330,6 @@ The geometry reveals the selection effect of LASSO (intersection at a corner/axi
 
 **Probabilistic View**
 
+**Bayes:** Regularisation imposes certain priors on the regression coefficients.
 
-
+<p align="center"> <img width="450" src= "/Pics/W326.png"> </p>
