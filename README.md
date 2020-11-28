@@ -318,4 +318,4 @@ Let's examine intuitively how these techniques (Ridge, LASSO, Elastic Net) inter
 
 **Geometric View**
 
-<p align="center"> <img width="400" src= "/Pics/W324.png"> </p>
+<p align="center"> <img width="450" src= "/Pics/W324.png"> </p>
