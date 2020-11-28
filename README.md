@@ -334,4 +334,4 @@ The geometry reveals the selection effect of LASSO (intersection at a corner/axi
 
 <p align="center"> <img width="450" src= "/Pics/W326.png"> </p>
 
-Letting *f* be the likelihood (probability of target given parameter vector \beta), and *p(\beta)* the prior distribution of \beta, we can calculate the posterior of \beta.
+Letting *f* be the likelihood (probability of target given parameter vector β), and *p(β)* the prior distribution of β, we can calculate the posterior of β.
