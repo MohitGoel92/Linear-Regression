@@ -303,3 +303,16 @@ The RFECV class will perform feature elimination using cross validation.
 
 ## Polynomial Features and Regularisation: Intuitive Analysis and Further Details
 
+Let's examine intuitively how these techniques (Ridge, LASSO, Elastic Net) interact with modelling. We will be taking the following approaches:
+
+- Analytic view
+- Geometric view
+- Probabilistic view
+
+**Analytical View**
+
+- Increasing L1/L2 penalties force coefficients to be smaller, restricting their plausible range.
+- A smaller range for the coefficients may have lower variance than a model with infinite possible coefficient range. For instance, if the coefficients are close to 0, the feature has a lower impact. If the coefficients are large, smaller changes have a big impact on the outcome variable, resulting in higher variance in the model.
+
+<p align="center"> <img width="1000" src= "/Pics/W323.png"> </p>
+
