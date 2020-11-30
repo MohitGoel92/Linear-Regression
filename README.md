@@ -334,4 +334,10 @@ The geometry reveals the selection effect of LASSO (intersection at a corner/axi
 
 <p align="center"> <img width="450" src= "/Pics/W326.png"> </p>
 
-Letting *f* be the likelihood (probability of target given parameter vector β), and *p(β)* the prior distribution of β, we can calculate the posterior of β.
+- Letting *f* be the likelihood (probability of target given parameter vector β), and *p(β)* the prior distribution of β, we can calculate the posterior of β.
+- p(β) is derived from independent draws of a prior coefficient density function *g* that we choose when regularising.
+- L2 (Ridge) regularisation imposes a Gaussian prior on the coefficients, while L1 (LASSO) regularisation imposes a Laplacian prior.
+
+Visualising these prior distributions again reveals the difference in behaviour between Ridge and LASSO: the Laplacian distribution has peaked density at 0, explaining its tendency to zero out some coefficients.
+
+<p align="center"> <img width="1000" src= "/Pics/W327.png"> </p>
