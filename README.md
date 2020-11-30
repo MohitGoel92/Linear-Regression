@@ -343,3 +343,5 @@ Visualising these prior distributions again reveals the difference in behaviour 
 <p align="center"> <img width="1000" src= "/Pics/W327.png"> </p>
 
 We observe a peak at zero/centered at zero, as zero is the most likely value for our coefficient. LASSO has a much higher and sharper peak at zero, since it's more likely to zero out some of our coefficients. Therefore, a higher lambda (λ) value will shrink the variance, meaning smaller coefficients because those coefficients are more likely to be closer to zero.
+
+Throughout every model, we will be using some form of regularisation in order to find the right balance between bias and variance.
